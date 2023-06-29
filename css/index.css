@@ -1,0 +1,46 @@
+body{
+    background: #ffb8b1;
+}
+.back{
+    
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+a{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover{
+    background-color: #D19C97;
+    box-shadow: 0px 0px 400px 86px #aa7c78;
+    -webkit-box-shadow: 0px 0px 400px 86px #aa7c78;
+    -moz-box-shadow: 0px 0px 400px 86px #aa7c78;
+    text-decoration: underline white;
+}
+.head{
+    text-align: left;
+    margin-left: 150px;
+    
+}
+.head a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 14px 40px;
+    margin-top: 250px;
+
+}
+@media screen {
+    .back{
+        width: 100%;
+        height: auto;
+    }
+}
